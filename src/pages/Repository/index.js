@@ -9,7 +9,7 @@ export default class Repository extends Component {
       params: PropTypes.shape({
         repository: PropTypes.string,
       }),
-    }).isRequired(),
+    }).isRequired,
   };
 
   state = {
